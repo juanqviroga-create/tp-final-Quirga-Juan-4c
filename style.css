@@ -1,6 +1,6 @@
-/* Estilos generales con un fondo violeta claro bien visible */
+/* Estilos generales con fondo suave */
 body {
-    background-color: #dfcbfa; /* Un lila/violeta pastel muy claro y notorio */
+    background-color: #f4effa; /* Color de fondo suave que combina con el violeta */
     color: #222222;
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -8,18 +8,18 @@ body {
 
 /* Encabezado principal */
 header {
-    background-color: #4f0680; /* Fondo violeta oscuro clásico */
+    background-color: #4f0680; /* Fondo violeta principal */
     text-align: center;
     padding: 15px;
 }
 
 header h1 {
-    color: white; /* Título principal en blanco */
+    color: white; /* Título principal en blanco sobre fondo violeta */
 }
 
 /* Navegación clásica */
 nav {
-    background-color: #ffffff; /* Fondo blanco para el menú para que resalte sobre el fondo lila */
+    background-color: #e2d5f1; /* Fondo violeta pastel claro */
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -43,19 +43,19 @@ nav a {
 
 /* Contenido principal */
 main {
-    background-color: white; /* El cuadro de texto central se queda en blanco para leer cómodo */
+    background-color: white;
     padding: 20px;
-    border: 1px solid #4f0680;
+    border: 1px solid #cccccc;
 }
 
-/* Títulos en violeta */
+/* APLICAMOS EL VIOLETA EN TODOS LOS TÍTULOS */
 h1 {
     color: #4f0680;
 }
 
 h2 {
     color: #4f0680;
-    border-bottom: 2px solid #4f0680;
+    border-bottom: 2px solid #4f0680; /* Línea divisoria en violeta */
     padding-bottom: 5px;
 }
 
@@ -74,11 +74,11 @@ p {
 
 /* Tarjetas o recuadros de contenido */
 .card {
-    background-color: #f4effa;
-    border-left: 4px solid #4f0680;
-    border-top: 1px solid #dfcbfa;
-    border-right: 1px solid #dfcbfa;
-    border-bottom: 1px solid #dfcbfa;
+    background-color: #f9f5fd;
+    border-left: 4px solid #4f0680; /* Borde lateral en violeta */
+    border-top: 1px solid #e2d5f1;
+    border-right: 1px solid #e2d5f1;
+    border-bottom: 1px solid #e2d5f1;
     padding: 15px;
     margin-bottom: 15px;
 }
