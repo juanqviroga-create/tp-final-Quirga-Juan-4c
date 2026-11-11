@@ -1,29 +1,29 @@
-/* Estilos generales con fondo suave */
+/* Estilos generales con un fondo verde pastel suave */
 body {
-    background-color: #f4effa; /* Color de fondo suave que combina con el violeta */
-    color: #222222;
+    background-color: #d8f3dc; /* Fondo general verde claro */
+    color: #1b4332;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-/* Encabezado principal */
+/* Encabezado principal en verde oscuro */
 header {
-    background-color: #4f0680; /* Fondo violeta principal */
+    background-color: #2d6a4f;
     text-align: center;
     padding: 15px;
 }
 
 header h1 {
-    color: white; /* Título principal en blanco sobre fondo violeta */
+    color: white; /* Título principal en blanco sobre fondo verde oscuro */
 }
 
-/* Navegación clásica */
+/* Navegación clásica con fondo verde claro */
 nav {
-    background-color: #e2d5f1; /* Fondo violeta pastel claro */
+    background-color: #b7e4c7; 
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid #4f0680;
+    border: 1px solid #2d6a4f;
 }
 
 nav ul {
@@ -36,56 +36,57 @@ nav li {
 }
 
 nav a {
-    color: #4f0680; /* Enlaces en violeta */
+    color: #1b4332; /* Enlaces en verde oscuro */
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* Contenido principal */
+/* Contenido principal con un fondo verde marfil (nada de blanco) */
 main {
-    background-color: white;
+    background-color: #f1faee; 
     padding: 20px;
-    border: 1px solid #cccccc;
+    border: 1px solid #2d6a4f;
 }
 
-/* APLICAMOS EL VIOLETA EN TODOS LOS TÍTULOS */
+/* Títulos en verde oscuro */
 h1 {
-    color: #4f0680;
+    color: #2d6a4f;
 }
 
 h2 {
-    color: #4f0680;
-    border-bottom: 2px solid #4f0680; /* Línea divisoria en violeta */
+    color: #2d6a4f;
+    border-bottom: 2px solid #2d6a4f;
     padding-bottom: 5px;
 }
 
 h3 {
-    color: #4f0680;
+    color: #2d6a4f;
 }
 
 h4 {
-    color: #4f0680;
+    color: #2d6a4f;
 }
 
 p {
     font-size: 16px;
     line-height: 1.5;
+    color: #1b4332;
 }
 
-/* Tarjetas o recuadros de contenido */
+/* Tarjetas o recuadros de contenido con fondo verde suave */
 .card {
-    background-color: #f9f5fd;
-    border-left: 4px solid #4f0680; /* Borde lateral en violeta */
-    border-top: 1px solid #e2d5f1;
-    border-right: 1px solid #e2d5f1;
-    border-bottom: 1px solid #e2d5f1;
+    background-color: #c8e6c9;
+    border-left: 4px solid #2d6a4f;
+    border-top: 1px solid #a3d9a5;
+    border-right: 1px solid #a3d9a5;
+    border-bottom: 1px solid #a3d9a5;
     padding: 15px;
     margin-bottom: 15px;
 }
 
-/* Pie de página */
+/* Pie de página en verde oscuro */
 footer {
-    background-color: #4f0680; /* Fondo violeta */
+    background-color: #2d6a4f;
     color: white;
     text-align: center;
     padding: 10px;
