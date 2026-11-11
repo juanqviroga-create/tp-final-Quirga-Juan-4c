@@ -1,72 +1,60 @@
-/* Estilos sencillos para el fondo y la letra */
+/* Estilos generales básicos */
 body {
+    background-color: white;
+    color: black;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333333;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
 }
 
-/* Encabezado principal */
+/* Título principal */
 header {
-    background-color: #4f0680;
-    color: white;
+    background-color: gray;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
-/* Menú de navegación */
+h1 {
+    color: green;
+}
+
+/* Menú */
 nav {
-    background-color: #333333;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    list-style-type: square;
 }
 
-nav ul li {
-    display: inline-block;
+nav li {
+    display: inline;
+    margin-right: 15px;
 }
 
-nav ul li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
+nav a {
+    color: blue;
+    text-decoration: underline;
 }
 
-nav ul li a:hover {
-    background-color: #4f0680;
-}
-
-/* Contenido principal */
+/* Contenido y textos */
 main {
-    width: 80%;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-    border: 1px solid #cccccc;
+    padding: 10px;
 }
 
-h2, h3 {
-    color: #4f0680;
+h2 {
+    color: darkblue;
 }
 
-/* Tarjetas sencillas de contenido */
-.card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin-bottom: 15px;
+p {
+    font-size: 16px;
 }
 
 /* Pie de página */
 footer {
-    background-color: #333333;
-    color: white;
+    background-color: lightgray;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
+    margin-top: 30px;
 }
