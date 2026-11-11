@@ -1,32 +1,33 @@
-/* Estilos generales básicos con un fondo suave */
+/* Estilos generales con fondo suave */
 body {
-    background-color: #f8f5fc; /* Fondo claro con un toque sutil de violeta */
-    color: #333333;
+    background-color: #f4effa; /* Color de fondo suave que combina con el violeta */
+    color: #222222;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-/* Título principal con el violeta clásico */
+/* Encabezado principal */
 header {
-    background-color: #4f0680;
+    background-color: #4f0680; /* Fondo violeta principal */
     text-align: center;
     padding: 15px;
 }
 
-h1 {
-    color: white; /* Texto blanco para destacar sobre el violeta */
+header h1 {
+    color: white; /* Título principal en blanco sobre fondo violeta */
 }
 
-/* Navegación clásica y sencilla */
+/* Navegación clásica */
 nav {
-    background-color: #e6ddf2; /* Un fondo violeta muy suave para el menú */
+    background-color: #e2d5f1; /* Fondo violeta pastel claro */
     padding: 10px;
+    margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid #d4c4e8;
+    border: 1px solid #4f0680;
 }
 
 nav ul {
-    list-style-type: disc; /* Puntitos clásicos de lista */
+    list-style-type: disc;
     margin-left: 20px;
 }
 
@@ -35,29 +36,56 @@ nav li {
 }
 
 nav a {
-    color: #4f0680; /* Enlaces en color violeta */
-    text-decoration: underline;
+    color: #4f0680; /* Enlaces en violeta */
     font-weight: bold;
+    text-decoration: underline;
 }
 
-/* Contenido y textos */
+/* Contenido principal */
 main {
     background-color: white;
     padding: 20px;
-    border: 1px solid #d4c4e8;
+    border: 1px solid #cccccc;
+}
+
+/* APLICAMOS EL VIOLETA EN TODOS LOS TÍTULOS */
+h1 {
+    color: #4f0680;
 }
 
 h2 {
-    color: #4f0680; /* Títulos en violeta */
+    color: #4f0680;
+    border-bottom: 2px solid #4f0680; /* Línea divisoria en violeta */
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4f0680;
+}
+
+h4 {
+    color: #4f0680;
 }
 
 p {
     font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Tarjetas o recuadros de contenido */
+.card {
+    background-color: #f9f5fd;
+    border-left: 4px solid #4f0680; /* Borde lateral en violeta */
+    border-top: 1px solid #e2d5f1;
+    border-right: 1px solid #e2d5f1;
+    border-bottom: 1px solid #e2d5f1;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 
 /* Pie de página */
 footer {
-    background-color: #4f0680;
+    background-color: #4f0680; /* Fondo violeta */
     color: white;
     text-align: center;
     padding: 10px;
